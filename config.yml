@@ -1,0 +1,13 @@
+---
+# Location where configuration files will be stored.
+config_dir: '~'
+
+# Internet monitoring configuration.
+monitoring_enable: true
+monitoring_grafana_admin_password: "admin"
+monitoring_speedtest_interval: 60m
+monitoring_ping_hosts:  # [URL];[HUMAN_READABLE_NAME]
+  - http://www.google.com/;google.com
+  - https://github.com/;github.com
+  - https://mail.cultura.gob.ar/;cultura
+

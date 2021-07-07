@@ -1,0 +1,2 @@
+#hay que descargar los paquetes necesarios por la playbook antes de correrla
+ansible-galaxy collection install -r requirements
